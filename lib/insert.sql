@@ -4,7 +4,7 @@ INSERT INTO subgenres (id, name) VALUES (1, "Fantasy"), (2, "Science Fiction");
 
 INSERT INTO authors (id, name) VALUES (1, "J.K. Rowling"), (2, "Second Author");
 
-INSERT INTO books (id, title, year, series_id) VALUES (1, "The Sorcerer's Stone", 1997, 1), (2, "A Chamber of Secrets", 1998, 1), (3, "Prisoner of Azkaban", 1999, 1), (4, "Dune", 1965, 2), (5, "Dune Messiah", 1969, 2), (6, "Third Book", 2005, 2);
+INSERT INTO books (id, title, year, series_id) VALUES (1, "The Sorcerer's Stone", 1997, 1), (2, "A Chamber of Secrets", 1998, 1), (3, "Prisoner of Azkaban", 1999, 1), (4, "Dune", 1965, 2), (5, "Dune Messiah", 1969, 2), (6, "Songs of Muad'dib", 2005, 2);
 
 INSERT INTO characters (id, name, motto, species, author_id, series_id) VALUES (1, "Lady", "Woof Woof", "direwolf", 1, 1), (2, "Tyrion Lanister", "A Lanister always pays is debts", "human", 1, 1), (3, "Daenerys Targaryen", "If I look back I am lost", "human", 1, 1), (4, "Eddard Stark", "Winter is coming", "human", 1, 1);
 
