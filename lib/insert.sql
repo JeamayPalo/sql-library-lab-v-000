@@ -10,6 +10,6 @@ INSERT INTO characters (id, name, motto, species, author_id, series_id) VALUES (
 
 INSERT INTO characters (id, name, motto, species, author_id, series_id) VALUES (5, "Duke Leto Atreides", "long live House Atreides", "human", 2, 2), (6, "Paul Atreides", "I am Muad'dib!", "psychic human", 2, 2), (7, "Jessica Atreides", "I am a devoted mother to my son the future ruler.", "human", 2, 2), (8, "Baron Vladimir Harkonnen", "kill Duke Leto!", "evil ruler/human", 2, 2);
 
--- INSERT INTO character_books (id, book_id, character_id) VALUES (1, 1, 1), (2, 1, 2), (3, 2, 2), (4, 3, 2), (5, 1, 3), (6, 2, 3), (7, 3, 3), (8, 1, 4);
+INSERT INTO character_books (id, book_id, character_id) VALUES (1, 1, 1), (2, 1, 2), (3, 2, 2), (4, 3, 2), (5, 1, 3), (6, 2, 3), (7, 3, 3), (8, 1, 4);
 
--- INSERT INTO character_books (id, book_id, character_id) VALUES (9, 4, 5), (10, 4, 6), (11, 5, 6), (12, 6, 6), (13, 4, 7), (14, 5, 7), (15, 6, 7), (16, 4, 8);
+INSERT INTO character_books (id, book_id, character_id) VALUES (9, 4, 5), (10, 4, 6), (11, 5, 6), (12, 6, 6), (13, 4, 7), (14, 5, 7), (15, 6, 7), (16, 4, 8);
